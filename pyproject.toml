@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sha256"
+version = "0.1.0"
+description = "Sha256 home implementation"
+authors = ["Andre van Dam <contact@andrevandam.com>"]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
